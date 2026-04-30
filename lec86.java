@@ -1,3 +1,5 @@
+
+import java.util.*;
 public class Main{
     public static void main(String[]args){
         Scanner scn = new scanner(System.in);
@@ -7,9 +9,11 @@ public class Main{
         System.out.println(d);
 
     }
-     public static inr getValueInDecimal( int n , int b);
+      public static int getValueInDecimal( int n , int b){
+
+      
            int rv= 0;
-        int p = 1;
+        int p = 1 ;
         while(n >0 ){
             int dig= n % 10;
             n = n / 10 ;
