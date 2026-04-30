@@ -15,7 +15,8 @@ public class Main{
            int rv= 0;
         int p = 1 ;
         while(n > 0 ){
-            int dig= n % 10;
+            int dig= n % 10;  // extracts last digit of number
+                              // removes last digit from number
             n = n / 10 ;
 
             rv += dig* p;
