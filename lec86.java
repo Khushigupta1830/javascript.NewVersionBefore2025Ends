@@ -16,10 +16,11 @@ public class Main{
 
             rv += dig* p;
             p = p*b;
-            
+
         }
+             return rv;
 
   
-    }       return rv;
+    }       //return rv;
 
 }
